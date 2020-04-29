@@ -1,0 +1,72 @@
+img {
+  width: 100%;
+  margin: 0px;
+  position: relative;
+}
+
+.header p {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  width: 50%;
+  margin: auto auto;
+  line-height: 64px;
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  color: white;
+  line-height: 64px;
+  background: #333;
+  width: 50%;
+  margin: auto auto;
+  padding: 40px;
+  position: relative;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 100px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+section {
+  width: 50%;
+  margin: auto auto;
+  line-height: 32px;
+  font-size: 20px;
+  list-style-type: square;
+  padding: 50px;
+}
+
+main {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+h4 {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  padding-top: 0px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+
+
+/* check also:
+https://codepen.io/lucafesus/pen/VwvaGBK
+https://codepen.io/oliver-nagy/pen/eYpvRpo?editors=1100
